@@ -1,0 +1,24 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "client_hooks": {
+        "aceEditorCSS": "md_all_headings/static/js/index",
+        "aceEditEvent": "md_all_headings/static/js/index",
+        "aceDomLineProcessLineAttributes": "md_all_headings/static/js/index",
+        "postAceInit": "md_all_headings/static/js/index",
+        "aceInitialized": "md_all_headings/static/js/index",
+        "aceAttribsToClasses": "md_all_headings/static/js/index",
+        "collectContentPre": "md_all_headings/static/js/shared",
+        "aceRegisterBlockElements": "md_all_headings/static/js/index"
+      },
+      "hooks": {
+        "eejsBlock_editbarMenuLeft": "md_all_headings/index",
+        "collectContentPre": "md_all_headings/static/js/shared",
+        "collectContentPost": "md_all_headings/static/js/shared",
+        "getLineHTMLForExport": "md_all_headings/index",
+        "stylesForExport" : "md_all_headings/index"
+      }
+    }
+  ]
+}
